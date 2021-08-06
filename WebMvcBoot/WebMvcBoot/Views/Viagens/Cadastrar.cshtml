@@ -1,12 +1,11 @@
 ﻿@model WebMvcBoot.Models.Viagens
 
 @{
-    ViewBag.Title = "Cadastar";
+    ViewBag.Title = "Cadastrar";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Cadastar</h2>
-
+<h2>Cadastrar</h2>
 
 @using (Html.BeginForm()) 
 {
@@ -41,9 +40,5 @@
 }
 
 <div>
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Voltar para a Lista", "Index")
 </div>
-
-@section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}
