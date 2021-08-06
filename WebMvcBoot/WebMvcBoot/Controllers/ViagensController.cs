@@ -6,9 +6,13 @@ using System.Web.Mvc;
 
 namespace WebMvcBoot.Controllers
 {
-    public class HomeController : Controller
+    public class ViagensController : Controller
     {
         public ActionResult Index()
+        {
+            return View();
+        }
+        public ActionResult Cadastar()
         {
             return View();
         }
