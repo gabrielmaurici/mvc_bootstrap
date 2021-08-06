@@ -5,9 +5,9 @@ using System.Web;
 
 namespace WebMvcBoot.Models
 {
-    public class Viagens : BaseModels
+    public class Agencias : BaseModels
     {
         public string Nome { get; set; }
-        public string Descricao { get; set; }
+        public string CNPJ { get; set; }
     }
 }

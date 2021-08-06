@@ -6,7 +6,7 @@ using WebMvcBoot.Models;
 
 namespace WebMvcBoot.Repository
 {
-    public class RepositoryViagens : BaseRepository<Viagens>
+    public class RepositoryAgencia : BaseRepository<Agencias>
     {
 
     }

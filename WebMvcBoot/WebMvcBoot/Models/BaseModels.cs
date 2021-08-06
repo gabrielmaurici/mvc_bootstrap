@@ -5,9 +5,8 @@ using System.Web;
 
 namespace WebMvcBoot.Models
 {
-    public class Viagens : BaseModels
+    public class BaseModels
     {
-        public string Nome { get; set; }
-        public string Descricao { get; set; }
+        public int Id { get; set; }
     }
 }
